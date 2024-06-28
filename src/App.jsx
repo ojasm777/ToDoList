@@ -120,7 +120,7 @@ function App() {
         {allTodos.length == 0 && <div className="m-5">Enter your todos</div>}
         {allTodos.length != 0 && allTodos.length == allDone && (
           <div className="m-5">
-            Congratulations! You have completed all your tasks :3
+            Congratulations! You have completed all your tasks 🎊
           </div>
         )}
         {console.log(allDone)}
